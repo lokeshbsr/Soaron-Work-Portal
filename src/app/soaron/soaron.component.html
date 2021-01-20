@@ -1,0 +1,104 @@
+<div>
+    <div class="headerDash">
+            <div>
+            <span class="font-dash">Dashbord</span>
+            <span class="font-dash">Work Log</span>
+            <span class="font-dash">Timesheet</span>
+            </div>
+            <div style="float: right;position: absolute;right: 30px;">
+            <span class="user">Shreyash</span>
+              <img>logo
+            <span><i class="fas fa-save"></i></span>
+           </div>
+    </div>
+    <div class="container-flex">
+         <div class="box1 challenge">
+             <span class="topHead">challenge</span>
+             <div class="line"></div>
+             <div class="dataCon">
+                <mat-card>
+                    <div class="card-header">PBS30665TD</div>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title"></h5> -->
+                        <p class="card-text">Estimation: --/--</p>
+                        <p class="card-text">Planning: To be Started</p>
+                        <p class="card-text">Owner: Shreyash</p>
+                    </div>
+                </mat-card>
+             </div>
+             <div class="downBtn"><button type="button" (click)="openModal()" class="btn btn-dark plus">+ Challenge</button></div>
+         </div>  
+         <div class="box2 working">
+             <span class="topHead">Working</span>
+             <div class="line"></div>
+
+         </div>  
+         <div class="box3 quality">
+            <span class="topHead">Quality Check</span>
+            <div class="line"></div>
+
+         </div>  
+         <div class="box4 done">
+            <span class="topHead">Done</span>
+            <div class="line"></div>
+
+         </div>  
+    </div>
+</div>
+
+<div>
+        <div class="modal" tabindex="-1" role="dialog"  [ngStyle]="{'display':display}">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <div class="form-group">
+                                        <!-- <div class="col-md-12"> -->
+                                            <h4 class="modal-title">Challenge : PSB32TREGS</h4>
+                                        <!-- </div> -->
+                                        <!-- <div class="col-md-12"> -->
+                                                <h5 class="modal-title">Owner : Shyerash</h5>
+                                        <!-- </div> -->
+                                        <h5 class="modal-title">Start Date : 24th Oct 2020</h5>
+                              </div>
+                            <button type="button" class="close" aria-label="Close" (click)="onCloseHandled()"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                    <div class="modal-body">
+                            <table class="table table-dark table-sm">
+                                    <thead>
+                                            <tr>
+                                              <th scope="col">#</th>
+                                              <th scope="col">First</th>
+                                              <th scope="col">Last</th>
+                                              <th scope="col">Handle</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">1</th>
+                                              <td>Mark</td>
+                                              <td>Otto</td>
+                                              <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">2</th>
+                                              <td>Jacob</td>
+                                              <td>Thornton</td>
+                                              <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">3</th>
+                                              <td colspan="2">Larry the Bird</td>
+                                              <td>@twitter</td>
+                                            </tr>
+                                          </tbody>
+                                  </table>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" (click)="onCloseHandled()" >Close</button>
+                        </div>
+                </div>
+                </div>
+        </div>
+</div>
+
+<!-- <i class="fa fa-cog fa-spin"></i> -->

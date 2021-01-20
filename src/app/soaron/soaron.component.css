@@ -1,0 +1,161 @@
+.headerDash {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    /* background-color: #e2e1ec; */
+    background-color: #e4e3f15e;
+}
+
+.container-flex {
+    display: flex;
+    margin-top: 18px;
+
+    /* justify-content: space-between; */
+}
+
+.box1 {
+    width: 200px;
+    height: 500px;
+    background-color: #edecf5;
+    /* border: 1px solid grey; */
+    top: 12px;
+    left: 30px;
+    margin-right: 37px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.box2 {
+    width: 200px;
+    height: 500px;
+    background-color: #da73da24;
+    /* border: 1px solid grey; */
+    top: 12px;
+    left: 30px;
+    position: relative;
+    margin-right: 37px;
+    flex-grow: 1;
+
+}
+
+.box3 {
+    width: 200px;
+    height: 500px;
+    background-color: #ffe5ff;
+    top: 12px;
+    left: 12px;
+    position: relative;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+
+
+.box4 {
+    width: 200px;
+    height: 500px;
+    background-color: #e3f1f7;
+    /* border: 1px solid grey; */
+    top: 12px;
+    left: 9px;
+    position: relative;
+    margin-right: 37px;
+    flex-grow: 1;
+
+}
+
+.challenge {
+  
+}
+
+.user{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 22px;
+}
+
+.font-dash{
+    font-family: sans-serif;
+    font-size: 23px;
+    color: #131112;
+    margin-left: 15px;
+}
+
+.topHead{
+    position: relative;
+    top: 12px;
+    left: 7px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.line{
+    height: 2px;
+    /* color: black; */
+    width: 97%;
+    background-color: #f8f9fa;
+    position: relative;
+    left: 4px;
+    top: 14px;
+}
+
+.dataCon{
+    height: 384px;
+}
+
+.downBtn{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.plus{
+    width: 80%;
+}
+
+mat-card{
+    position: relative;
+    /* left: 12px; */
+    /* right: 12px; */
+    margin: 12px;
+    top: 12px;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(255 255 255 / 3%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    color: #367f80;
+    font-size: 16px;
+}
+
+.card-text{
+    margin-bottom: -1px;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 126%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    right: 55px;
+}
+
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    margin-bottom: -3px !important;
+}
+
+.table-dark {
+    color: #fff;
+    background-color: #a7d3da;
+}
