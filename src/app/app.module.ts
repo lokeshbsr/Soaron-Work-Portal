@@ -16,7 +16,6 @@ import { FormsModule } from '@angular/forms';
 import {MatSelectModule} from '@angular/material/select';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatDialogModule} from '@angular/material/dialog';
-import { JoinUsComponent } from './join-us/join-us.component';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { SoaronComponent } from './soaron/soaron.component';
 import { LoginSoaronComponent } from './login-soaron/login-soaron.component';
@@ -29,7 +28,6 @@ import { TimeSheetComponent } from './time-sheet/time-sheet.component';
 @NgModule({
   declarations: [
     AppComponent,
-    JoinUsComponent,
     SoaronComponent,
     LoginSoaronComponent,
     ForgotPasswordComponent,
